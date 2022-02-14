@@ -31,7 +31,7 @@ jobs:
     - name: Deploy to Azure Web App
       uses: azure/webapps-deploy@v2
       with:
-        app-name: 'GKLABVM01'
+        app-name: 'Sudhmca123456'
         slot-name: 'production'
         publish-profile: ${{ secrets.AzureAppService_PublishProfile_26d3bc33356a4c18a9e714ff20ad65eb }}
         package: \published\
